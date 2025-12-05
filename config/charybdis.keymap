@@ -13,6 +13,19 @@
 };
 
 / {
+    /* Custom Behaviors for Trackball */
+    behaviors {
+        tmv: behavior_trackball_move {
+            compatible = "zmk,behavior-point-device-incremental";
+            label = "TRACKBALL_MOVE";
+            #trackball-binding-cells = <0>;
+            mode = "move-mode";
+            flavor = "default";
+            scale_mode = "multiplier";
+            scale_factor = <4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
