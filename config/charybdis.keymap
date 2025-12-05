@@ -22,11 +22,11 @@
 &kp TAB             &kp Q   &kp W   &kp E         &kp R      &kp T        &kp Y     &kp U      &kp I      &kp O    &kp P     &kp BSLH
 &mt LCTRL ESCAPE    &kp A   &kp S   &kp D         &kp F      &kp G        &kp H     &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LS(LEFT_SHIFT)  &kp Z   &kp X   &kp C         &kp V      &kp B        &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mo 2
-                                    &kp LEFT_WIN  &kp SPACE  &mkp MCLK    &kp LALT  &kp ENTER
+                                    &kp LEFT_WIN  &kp SPACE  &mo 1        &kp LALT  &kp ENTER
                                                   &mkp MB1   &mkp MB2     &mo 1
             >;
 
-            trackball-bindings = <&tmv_coarse>;
+            trackball-bindings = <&tmv>;
         };
 
         layer_1 {
@@ -47,7 +47,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans        &trans           &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &mkp LCLK     &mkp MCLK        &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &mkp LCLK     &mo 1            &mkp RCLK  &trans
                         &trans  &trans  &trans    &trans          &trans
                                 &trans  &trans    &trans
             >;
